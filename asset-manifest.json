@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/ananyasista/static/css/main.662ba18c.css",
-    "main.js": "/ananyasista/static/js/main.22e20641.js",
-    "static/js/787.636be25e.chunk.js": "/ananyasista/static/js/787.636be25e.chunk.js",
-    "static/media/proj2.jpg": "/ananyasista/static/media/proj2.7a97a2cec727786f29a3.jpg",
-    "static/media/proj1.jpg": "/ananyasista/static/media/proj1.165c36179929a2e6b77b.jpg",
-    "static/media/logo.svg": "/ananyasista/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/ananyasista/index.html",
-    "main.662ba18c.css.map": "/ananyasista/static/css/main.662ba18c.css.map",
-    "main.22e20641.js.map": "/ananyasista/static/js/main.22e20641.js.map",
-    "787.636be25e.chunk.js.map": "/ananyasista/static/js/787.636be25e.chunk.js.map"
+    "main.css": "/WiCSEPersonalProject/static/css/main.662ba18c.css",
+    "main.js": "/WiCSEPersonalProject/static/js/main.323c46a4.js",
+    "static/js/787.636be25e.chunk.js": "/WiCSEPersonalProject/static/js/787.636be25e.chunk.js",
+    "static/media/proj2.jpg": "/WiCSEPersonalProject/static/media/proj2.7a97a2cec727786f29a3.jpg",
+    "static/media/proj1.jpg": "/WiCSEPersonalProject/static/media/proj1.165c36179929a2e6b77b.jpg",
+    "static/media/logo.svg": "/WiCSEPersonalProject/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/WiCSEPersonalProject/index.html",
+    "main.662ba18c.css.map": "/WiCSEPersonalProject/static/css/main.662ba18c.css.map",
+    "main.323c46a4.js.map": "/WiCSEPersonalProject/static/js/main.323c46a4.js.map",
+    "787.636be25e.chunk.js.map": "/WiCSEPersonalProject/static/js/787.636be25e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.662ba18c.css",
-    "static/js/main.22e20641.js"
+    "static/js/main.323c46a4.js"
   ]
 }
