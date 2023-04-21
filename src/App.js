@@ -14,10 +14,10 @@ function App() {
       <Router>
           <Navbar/>
         <Routes>
-          <Route path="/" element={<Home/>}></Route>
-          <Route path="/projects" element={<Projects/>}></Route>
-          <Route path="/experience" element={<Experience/>}></Route>
-          <Route path="/displayProject/:id" element={<DisplayProject/>}></Route>
+          <Route path="/WiCSEPersonalProject" element={<Home/>}></Route>
+          <Route path="/WiCSEPersonalProject/projects" element={<Projects/>}></Route>
+          <Route path="/WiCSEPersonalProject/experience" element={<Experience/>}></Route>
+          <Route path="/WiCSEPersonalProject/displayProject/:id" element={<DisplayProject/>}></Route>
         </Routes>
         <Footer />
       </Router>
