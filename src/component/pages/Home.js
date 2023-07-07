@@ -13,9 +13,9 @@ const Home = () => {
           <p>
             A Computer Science Student with a passion for tech.
           </p>
-          <LinkedInIcon onClick={() => window.open('https://www.linkedin.com/in/christine-lin-9a0155189/')}/>
-          <GitHubIcon onClick={() => window.open('https://github.com/christinealin7771')}/>
-          <EmailIcon onClick={() => window.location = 'mailto:christinelin.7771@gmail.com'}/>
+          <LinkedInIcon onClick={() => window.open('https://www.linkedin.com/in/ananya-sista')}/>
+          <GitHubIcon onClick={() => window.open('https://github.com/ananyasista?tab=repositories')}/>
+          <EmailIcon onClick={() => window.location = 'mailto:sistaa@ufl.edu'}/>
         </div>
       </div>
       <div className="skills">
@@ -23,15 +23,15 @@ const Home = () => {
         <ol className="list">
           <li className="item">
             <h2>Languages</h2>
-            <span>C++, Python, C#, HTML/CSS</span>
+            <span>C++, Python, C#, HTML/CSS, C, Matlab</span>
           </li>
-          {/* <li className="item">
-            <h2>Technology</h2>
-            <span>Ruby on Rails, Node.js, React, React Native, Bootstrap, PostgreSQL, MySQL</span>
-          </li> */}
+          {<li className="item">
+            <h2>Softwares & Technologies</h2>
+            <span>Docker, Windows, Linux, Git, Confluence, Jira, Bitbucket, Agile Scrum</span>
+          </li> }
           <li className="item">
             <h2>Coursework</h2>
-            <span>Advanced Programming Fundamentals, Computational Linear Algebra, 
+            <span>Advanced Programming Fundamentals, Data Strcutures and Algorithms, Introduction to Computer Organization, Calculus 3, Differential Equations, Computational Linear Algebra, 
               Applications of Discrete Structures</span>
           </li>
         </ol>

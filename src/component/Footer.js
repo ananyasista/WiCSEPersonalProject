@@ -8,9 +8,9 @@ const Footer = () => {
   return (
     <div className = "footer">
       <div className="socialMedia">
-       <LinkedInIcon onClick={() => window.open('https://www.linkedin.com/in/ananya-sista-573b54251')}/>
-       <GitHubIcon onClick={() => window.open('https://github.com/christinealin7771')}/>
-       <EmailIcon onClick={() => window.location = 'mailto:christinelin.7771@gmail.com'}/>
+      <LinkedInIcon onClick={() => window.open('https://www.linkedin.com/in/ananya-sista')}/>
+          <GitHubIcon onClick={() => window.open('https://github.com/ananyasista?tab=repositories')}/>
+          <EmailIcon onClick={() => window.location = 'mailto:sistaa@ufl.edu'}/>
        </div>
     </div>
   )
