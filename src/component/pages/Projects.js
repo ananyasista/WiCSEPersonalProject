@@ -10,12 +10,13 @@ const Projects = () => {
   return (
     <div className = "projects">
       <h1>My Personal Projects</h1>
+      <p>Coming soon! In the meantime, read about a few of my projects on my <a href="https://www.linkedin.com/in/ananya-sista">LinkedIn.</a></p>
       <div className='projectList'>
         {/* <ProjectItem name = "Social Media Website" image = {proj1}/>
         <ProjectItem name = "Classmate Finder" image = {proj2} /> */}
-        {ProjectList.map((project, idx) => {
+        {/* {ProjectList.map((project, idx) => {
           return <ProjectItem id = {idx} name = {project.name} image = {project.image}/>
-        })}
+        })} */}
       </div>
     </div>
   )

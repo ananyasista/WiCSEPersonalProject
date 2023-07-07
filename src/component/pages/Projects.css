@@ -7,6 +7,11 @@
     flex-direction: column;
   }
 
+  p {
+    margin-bottom: 500px;
+    font-size: 30px;
+  }
+
   /* .projects .projectTitle {
     text-align: center;
     color: #3e497a;
