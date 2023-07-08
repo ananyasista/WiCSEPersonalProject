@@ -1,0 +1,60 @@
+.collapse-button {
+    display: block;
+    float: left;
+}
+
+.collapse-content.collapsed {
+    display: none;
+}
+
+.collapsed-content.expanded {
+    display: block;
+}
+
+button {
+    background-color: #ffffff;
+    display: inline-block;
+    border: none;
+    font-size: 15px;
+    color: #88A281;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.collapseText svg {
+    color: #5C7457;
+}
+
+.collapseText {
+    cursor: crosshair;  
+    display: inline-flex;
+    flex-direction: row;
+    margin-top: 20px;
+    height: 20px;
+    padding: 0px;
+    margin-left: -6px;
+}
+
+h3 {
+    font-family: "Cairo", sans-serif;
+    color: #5C7457;
+}
+
+h4 {
+    font-family: "Cuprum", sans-serif;
+    color: #88A281;
+}
+
+p {
+    font-family: "Karma", sans-serif;
+    color: black;
+}
+
+ul {
+    color: #5C7457;
+}
+
+.vertical-timeline-element {
+    color: #5C7457;
+    
+}
