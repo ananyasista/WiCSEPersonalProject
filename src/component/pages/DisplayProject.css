@@ -11,7 +11,7 @@
     font-size: 35px;
   }
   .project img {
-    width: 700px;
+    width: 60%;
     border-radius: 10px;
   }
   
@@ -55,4 +55,23 @@
         transition: 0.3s ease-in;
         cursor: pointer;
     
+  }
+
+  @media only screen and (max-width: 480px) {
+    .project h1 {
+      font-size: 30px;
+    }
+
+    .project .skills {
+      font-size: 25px;
+    }
+
+    .project p {
+      font-size: 20px;
+    }
+
+    .project .details {
+      font-size: 15px;
+      text-align: left;
+    }
   }

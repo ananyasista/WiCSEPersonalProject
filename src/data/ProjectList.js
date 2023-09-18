@@ -23,15 +23,31 @@ export const ProjectList = [
     {
         name: "Minesweeper",
         image: proj2,
-        skills: "Javascript, React",
-        details: "",
-        github: "https://github.com/christinealin7771"
+        skills: "C++, SFML, object-oriented programming, recursion, file input",
+        details: "I developed a fully functional version of the classic game\
+        Minesweeper in C++ with the use of the SFML library to output graphics\
+        and receive input from the player to determine game states",
+        bullet1: "Structured code base through the usage of object-oriented\
+        programming to represent game objects and behaviors, recursive methods,\
+        and front-end user input to adjust the visibility of graphical elements\
+        such as mines, flags, and a flag counter.",
+        bullet2: "Parsed data from text files to implement pre-determined game board\
+        layouts, with the default being 50 randomly placed mines.",
+        github: ""
     },
     {
         name: "Ultrasound Virtual Coach",
         image: proj3,
-        skills: "Javascript, React",
-        details: " ",
+        skills: "Unity, C#, data collection, external libraries",
+        details: "As a research assistant at the UF Center for Simulation, \
+        Safety, and Advanced Learning Technologies (CSSALT) lab, I implemented\
+        an Ultrasound Virtual Coach simulation program for medical professionals\
+        to use while training to perform ultrasounds on patients.",
+        bullet1: "Designed the solution architecture for 20+ training exercises\
+        through collecting practical performance data and creating reasonable scoring\
+        mechanisms in multiple choice and tactical question formats.",
+        bullet2: "Improved the user interface of older program versions by adding UI\
+        elements such as viewer toggles, and chimes for correct/incorrect solutions.",
         github: "https://github.com/christinealin7771"
     },
     {
