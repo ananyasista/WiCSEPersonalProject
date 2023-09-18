@@ -1,6 +1,5 @@
 .project {
     width: 100%;
-    height: calc(150vh - 100px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,8 +7,7 @@
   }
   
   .project h1 {
-    margin-top: 50px;
-    color: #3e497a;
+    color: #5C7457;
     font-size: 35px;
   }
   .project img {
@@ -18,13 +16,37 @@
   }
   
   .project p {
-    font-size: 40px;
-    color: #3e497a;
+    font-size: 25px;
+    font-family: Karma, "serif";
+    color: #88A281;
+    margin: 10px;
+    width: 50%;
+    text-align: center;
+  }
+
+  .project p b {
+    color: #5C7457;
+  }
+
+  .project .skills{
+    font-size: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+
+  .project .details {
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .project .details li {
+    padding-bottom: 15px;
+    color: #88A281;
   }
   
   .project svg {
     font-size: 60px;
-    color: #3e497a;
+    color: #5C7457;
   }
 
   .project .icons:hover {

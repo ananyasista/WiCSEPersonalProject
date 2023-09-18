@@ -11,12 +11,14 @@ const Home = () => {
         <h2>Hi, my name is Ananya Sista</h2>
         <div className="prompt">
           <p>
-            A Computer Science Student with a passion for tech.
+            A Computer Science and Economics Student with a passion for tech.
+            
           </p>
           <LinkedInIcon onClick={() => window.open('https://www.linkedin.com/in/ananya-sista')}/>
-          <GitHubIcon onClick={() => window.open('https://github.com/ananyasista?tab=repositories')}/>
-          <EmailIcon onClick={() => window.location = 'mailto:sistaa@ufl.edu'}/>
+        <GitHubIcon onClick={() => window.open('https://github.com/ananyasista?tab=repositories')}/>
+        <EmailIcon onClick={() => window.location = 'mailto:sistaa@ufl.edu'}/>
         </div>
+        
       </div>
       <div className="skills">
         <h2>Skills</h2>

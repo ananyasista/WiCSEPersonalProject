@@ -223,7 +223,7 @@ const Experiences = () => {
                 <p>Communicate frequently with the CLAS director of undergraduate research and keep up-to-date records of all meetings and correspondence</p>
               </li>
               <li>
-                <p>Collaborate with other CUR student ambassadors to brainstorm ideas and combine different persepctives to create events that benfit the target audience</p>
+                <p>Collaborate with other CUR student ambassadors to brainstorm ideas and combine different persepctives to create events that benfit the target audience </p>
               </li>
             </ul>
           </Collapse>
