@@ -3,12 +3,16 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn'
 import GitHubIcon from '@mui/icons-material/GitHub'
 import EmailIcon from '@mui/icons-material/Email'
 import './Home.css'
+import ReactTyped from "react-typed"
 
 const Home = () => {
   return (
     <div className="home">
       <div className="about">
-        <h2>Hi, my name is Ananya Sista</h2>
+        <h2>
+          {" "}
+          <ReactTyped strings={["Hi, my name is Ananya Sista."]} typeSpeed={100} />
+        </h2>
         <div className="prompt">
           <p>
             A Computer Science and Economics Student with a passion for tech.

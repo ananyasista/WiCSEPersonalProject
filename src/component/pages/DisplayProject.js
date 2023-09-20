@@ -4,9 +4,16 @@ import { ProjectList } from '../../data/ProjectList';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import './DisplayProject.css'
 
+function displayIcon({url}){
+    if(url != " "){
+        return <GitHubIcon className= "icons" onClick={() => window.open({url})}/>
+    }
+}
+
 const DisplayProject = () => {
         const {id} = useParams()
         const project = ProjectList[id]
+        // const url = ({project.github})
     return (
     <div className='project'>
         <h1>{project.name}</h1>
@@ -23,7 +30,8 @@ const DisplayProject = () => {
                 <li>{project.bullet2}</li>
             </ul>
         </p>
-        <GitHubIcon className= "icons" onClick={() => window.open(project.github)}/>
+            {/* {displayIcon({project.github})} */}
+        
         
     </div>
   )

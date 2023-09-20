@@ -48,13 +48,17 @@ export const ProjectList = [
         mechanisms in multiple choice and tactical question formats.",
         bullet2: "Improved the user interface of older program versions by adding UI\
         elements such as viewer toggles, and chimes for correct/incorrect solutions.",
-        github: "https://github.com/christinealin7771"
+        github: ""
     },
     {
         name: "Personal Website",
         image: proj4,
-        skills: "Javascript, React",
-        details: " ",
-        github: "https://github.com/christinealin7771"
+        skills: "Javascript, React, HTML, CSS, Git",
+        details: "A website I developed in my free time to further showcase my projects \
+        and experience outside of my resume, teach myself React, and \
+        stay in touch with my HTML/CSS skills.",
+        bullet1: "Developed using React framework elements in tandem with JavaScript functions and HTML/CSS structures and stylesheets." ,
+        bullet2: "Dynamic structuring of project pages using react-router that allows streamlined and consistent creation of each project page. ",
+        github: ""
     }
 ]
